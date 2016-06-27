@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 24px;
+	line-height: 32px;
+	color: #333;
+}
+
+#fixed {
+	position: fixed;
+	background-color: #eee;
+	padding: 40px;
+	text-align: center;
+}
+
+.wrapper {
+	width: 600px;
+	margin: 0 auto 0 auto;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 45px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 28px;
+}
+
+#relative {
+	position: relative;
+	background-color: #eee;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	height: 200px;
+}
+
+#absolute {
+	width: 250px;
+	position: absolute;
+	background-color: #999;
+	padding: 20px;
+	bottom: 0;
+	right: -30px;
+	text-align: center;	
+}
